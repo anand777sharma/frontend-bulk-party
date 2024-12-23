@@ -35,7 +35,7 @@ function App() {
           <>
             <ProfileSection />
             <SeatGrid />
-            <VotingButtons title="Vote for your favorite DJ" options={['DJ Snake', 'Martin Garrix', 'David Guetta', 'Armin van Buuren']} />
+            <VotingButtons title="Vote for your favorite club" options={['DJ Snake', 'Martin Garrix', 'David Guetta', 'Armin van Buuren']} />
             <DateSelection />
           </>
         ) : (
