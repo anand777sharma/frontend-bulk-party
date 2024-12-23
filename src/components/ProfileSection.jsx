@@ -4,7 +4,7 @@ export default function ProfileSection() {
   const [isOpen, setIsOpen] = useState(false)
   const [name, setName] = useState('John Doe')
   const [bio, setBio] = useState('Party enthusiast and dance floor king')
-  const [avatar, setAvatar] = useState('/placeholder.svg?height=100&width=100')
+  const [avatar, setAvatar] = useState('https://i.pinimg.com/originals/7a/c8/4d/7ac84d2075ab95914dc2162e20fe7a3a.jpg')
   const [college, setCollege] = useState('University of Party')
   const [gender, setGender] = useState('Male')
 
