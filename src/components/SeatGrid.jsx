@@ -5,7 +5,7 @@ import BookingModal from './BookingModal'
 
 export default function SeatGrid() {
   const [selectedSeats, setSelectedSeats] = useState([])
-  const totalSeats = 60
+  const totalSeats = 67
   const [occupiedSeats, setOccupiedSeats] = useState(
     Array.from({ length: 20 }, () => Math.floor(Math.random() * totalSeats) + 1)
   )
@@ -38,7 +38,7 @@ export default function SeatGrid() {
           style={{ width: `${((occupiedSeats.length + selectedSeats.length) / totalSeats) * 100}%` }}
         ></div>
       </div>
-      <div className={`grid gap-2 mb-4`} style={{ gridTemplateColumns: `repeat(${gridSize}, minmax(0, 1fr))` }}>
+      <div className={`grid gap-4 mb-4 `} style={{ gridTemplateColumns: `repeat(${gridSize}, minmax(0, 1fr))` }}>
         {Array.from({ length: totalSeats }, (_, i) => (
           <button
             key={i}

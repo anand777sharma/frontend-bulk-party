@@ -34,7 +34,7 @@ function App() {
         {activeTab === 'booking' ? (
           <>
             <ProfileSection />
-            <SeatGrid />
+                        <SeatGrid />
             <VotingButtons title="Vote for your favorite club" options={['DJ Snake', 'Martin Garrix', 'David Guetta', 'Armin van Buuren']} />
             <DateSelection />
           </>
